@@ -3,7 +3,6 @@ node_modules/
 dist/
 ios/
 android/
-package-lock.json
 npm-debug.*
 *.jks
 *.p8
@@ -14,3 +13,16 @@ npm-debug.*
 *.bundle
 *.bundle.js
 web-build/
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+
+.android
+local.properties
